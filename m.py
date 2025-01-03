@@ -11,8 +11,8 @@ attack_history = []  # Store attack logs
 
 TELEGRAM_BOT_TOKEN = '7130390464:AAHf7FgX02Ofaiq36D8JBOfYMfvSuV5oFEc'
 ADMIN_USER_ID = 6864281179
-MONGO_URI = "mongodb+srv://Kamisama:Kamisama@kamisama.m6kon.mongodb.net/"
-DB_NAME = "dmklke"
+MONGO_URI = "mongodb+srv://Bishal:Bishal@bishal.dffybpx.mongodb.net/?retryWrites=true&w=majority&appName=Bishal"
+DB_NAME = "zoya"
 COLLECTION_NAME = "users"
 attack_in_progress = False
 ATTACK_TIME_LIMIT = 240  # Maximum attack duration in seconds
